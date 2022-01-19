@@ -1,0 +1,16 @@
+make public repository on GitHub and call it as "basic_repo"
+make new folder on your device by cmder or the terminal with command --> mkdir basic_repo
+change your directory to the local repository by typing command --> cd basic_repo
+make two new files and write some content in them by using commands --> touch Index.html, and touch touch style.css
+initialize a local repository in ur divice by cammand --> git init
+add the two files  to the local repository using command --> git add .
+check what the folder that have been added to the stage area and have to be commited by command --> git status
+make the commit to the local repository by command --> git commit -m "two files were added"
+git status aggin to check there is no files to be committed or added.
+assign a remote repository on your github to the local one by command --> git remote add origin <your repository link from github>
+make some changes on the files in your local repository.
+command --> git add . again to add ur changes.
+command --> git commit -m "the second change".
+command --> git push   to push them to the remote repository again.
+check ur github account and go to the repository "basic_repo" to see the changes commites on the files.
+write an outline test explain your steps like this one.  
